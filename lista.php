@@ -34,10 +34,9 @@ echo "--------------------------------------------------------------------------
 
 ?>
 
-<div id="link">
-    <a href="index.php">Voltar</a>
-</div>
-
+ <div class="link-lista">
+     <a  href="lista.php">HOME</a>
+ </div>
     
 
 </body>
