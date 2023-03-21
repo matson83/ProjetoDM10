@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link rel="stylesheet" href="style.css">
-    <script src="/js/script.js"></script>
+    
 
     <title>Sistema De Estacionamento</title>
 </head>
@@ -106,6 +106,7 @@
 
                  <br>
              <input class="botao" type="submit" name="submit" id="submit" value="Cadastrar">
+                
              <div class="link-lista">
                 <a  href="lista.php">Lista de Cadastro</a>
              </div>
