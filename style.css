@@ -1,0 +1,88 @@
+body{
+    background-image: linear-gradient(90deg,aqua, #113647);
+}
+.box{
+    position: absolute;
+    color: white;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 15px;
+    border-radius: 19px;
+    width: 40%;
+
+}
+
+.inputsBox{
+    position: relative;
+
+}
+
+.inputs{
+    background:none;
+    border: none;
+    border-bottom: 1px solid aqua;
+    outline: none;
+    color: white;
+    font-size: 15px;
+    width: 80%;
+
+}
+
+.title{
+    text-align:center;
+}
+
+.Labeltext{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    pointer-events: none;
+    transition: .5s;
+}
+
+.botao{
+    margin-top: 10px;
+}
+
+#submit{
+    background-image: linear-gradient(90deg,#113647,rgb(65, 163, 163), #113647);
+    border: none;
+    border-radius: 10px;
+    width: 100%;
+    font-size: 15px;
+    color: white;
+    cursor: pointer;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.link-lista{
+    text-align: center;
+    background-image: linear-gradient(90deg,#113647,rgb(65, 163, 163), #113647);
+    border: none;
+    border-radius: 10px;
+    font-size: 15px;
+    cursor: pointer;
+    padding: 10px;
+
+
+}
+
+a #link{
+    text-align: center;
+}
+
+fieldset{
+    border: 3px solid aqua ;
+    border-radius: 10px;
+}
+legend{
+    border: 1px solid aqua;
+    padding: 8px;
+    text-align: center;
+    background-color: aqua;
+    border-radius: 10px;
+    color: #113647;
+}
